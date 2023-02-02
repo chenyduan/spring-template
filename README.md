@@ -18,7 +18,9 @@
 
 
 --------------
-# Spring Securit Oauth2 Client
+# Spring Securit 
+参考 `https://blog.csdn.net/weixin_40972073/category_11954818.html`
+Oauth2 Client
 - GitHub应用注册 `https://github.com/settings/applications/new`
 
 - 出现问题： 
