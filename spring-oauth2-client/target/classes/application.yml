@@ -1,0 +1,26 @@
+server:
+  port: 6006
+spring:
+  application:
+    name: oauth-client
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id:  9565df5ab75d6c431759  # 注册时 GitHub得到
+            client-secret: 55d54913432ae3ceb6a038e6cd4b92b5b126683b  # 注册时 GitHub得到
+          gitee:
+            client-id: 0909694cfacef425e1bfd413a334c26da3fa242c46eb6006d98f3f59c54967ca # gitee上获取
+            client-secret: f177ad52b6f77393df0f0ee899224f05cdc3f2bc7e887b934f78b813a825bc83 # gitee上获取
+            authorization-grant-type: authorization_code # 授权模式，授权码
+            redirect-uri: '{baseUrl}/login/oauth2/code/{registrationId}'
+            client-name: Gitee
+        # gitee需要提供
+        provider:
+          gitee:
+            authorization-uri: https://gitee.com/oauth/authorize
+            token-uri: https://gitee.com/oauth/token
+            user-info-uri: https://gitee.com/api/v5/user
+            user-name-attribute: name
+

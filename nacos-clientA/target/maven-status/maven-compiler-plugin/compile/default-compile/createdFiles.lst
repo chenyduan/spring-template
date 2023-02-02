@@ -1,2 +1,4 @@
-com\universeparticle\clienta\TestController.class
+com\universeparticle\clienta\controller\TestController.class
+com\universeparticle\clienta\service\TestServiceImpl.class
+com\universeparticle\clienta\service\TestService.class
 com\universeparticle\clienta\AAppRun.class

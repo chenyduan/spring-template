@@ -1,0 +1,13 @@
+server:
+  port: 6003
+spring:
+  application:
+    name: auth-server
+  security:
+    oauth2:
+      client:
+#        注册客户端
+        registration:
+
+        provider:
+

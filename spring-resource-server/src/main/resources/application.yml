@@ -1,0 +1,10 @@
+server:
+  port: 6005
+spring:
+  application:
+    name: resource-server
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9000  # 指定授权服务器地址，从此地址获取jwt令牌，

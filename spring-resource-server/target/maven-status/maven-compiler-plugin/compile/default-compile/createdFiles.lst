@@ -1,0 +1,3 @@
+com\universeparticle\ResourceServerRun.class
+com\universeparticle\config\ResoruceServerConfig.class
+com\universeparticle\controller\TestSecurityController.class

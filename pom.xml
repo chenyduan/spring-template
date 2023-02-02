@@ -12,6 +12,9 @@
         <module>nacos-clientA</module>
         <module>nacos-clientB</module>
         <module>nacos-clientb-dubbo</module>
+        <module>spring-authorization-server</module>
+        <module>spring-resource-server</module>
+        <module>spring-oauth2-client</module>
     </modules>
 
     <parent>

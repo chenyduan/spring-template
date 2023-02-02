@@ -1,2 +1,3 @@
-com\universeparticle\clientb\BAppRun.class
+com\universeparticle\clientb\dubbo\TestClientBDubboImpl.class
 com\universeparticle\clientb\TestController.class
+com\universeparticle\clientb\BAppRun.class
